@@ -32,8 +32,7 @@ main {
 	padding-left: 10em;
 	padding-top: 2em;
 	padding-bottom: 10em;
-	padding-right: 10em;
-	flex: 1 50%;
+	padding-right: 20em;
 }
 
 .logo {
@@ -87,8 +86,9 @@ main {
 
 menu {
 	padding-top: 5em;
-	background-color: var(--white);
-	flex: 1 10%;
+	background-color: var(--white);	
+	float: right;
+	margin-right: 5em;
 }
 
 footer {
@@ -100,12 +100,6 @@ footer {
 footer a {
 	color: var(--black);
 	text-decoration: none;
-}
-
-.layout {
-	display: flex;
-	flex-flow: row wrap;
-	align-items: stretch;
 }
 
 ul {
