@@ -57,11 +57,11 @@ main {
 }
 
 
-.postTittle {
+.postTitle {
 	font-size: xx-large;
 }
 
-.postTittle a {
+.postTitle a {
 	color: var(--black);
 	text-decoration: none;
 }
