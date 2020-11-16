@@ -1,0 +1,113 @@
+:root {
+	--white: #fffff0;
+	--black: #2b2b30;
+	
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+	background: var(--black);
+	color: var(--black);
+	margin: 2em 10em 2em 10em;
+}
+
+
+@media screen and (max-width: 1000px) {
+	body {
+		margin: 0;
+	}
+}	
+
+header {
+	background: var(--white);
+	margin-bottom: -0.1em;
+}
+
+main {
+	background-color:  var(--white); 
+	padding-left: 10em;
+	padding-top: 2em;
+	padding-bottom: 10em;
+	padding-right: 10em;
+	flex: 1 50%;
+}
+
+.logo {
+	background-color: var(--black);
+	width: 2em;
+	height: 3em;
+	font-size: 2em;
+	margin-left: 3em;
+	padding-top: 2em;
+}
+
+.logo::first-letter {
+	color: var(--white);
+	background-color:  var(--black); 
+	margin-left: -0.95em;
+}
+
+.title{
+	color: var(--black);
+	text-decoration: none;
+	background-color: var(--white); 
+}
+
+
+.postTittle {
+	font-size: xx-large;
+}
+
+.postTittle a {
+	color: var(--black);
+	text-decoration: none;
+}
+
+.postText {
+	word-wrap: break-word;
+	padding-top: 1em;
+}
+
+.postDate {
+	font-size: small;
+	padding-top: -2em;
+}
+
+.postDescription {
+	font-size: 120%;
+	word-wrap: break-word;
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+menu {
+	padding-top: 5em;
+	background-color: var(--white);
+	flex: 1 10%;
+}
+
+footer {
+	background: var(--white);
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+footer a {
+	color: var(--black);
+	text-decoration: none;
+}
+
+.layout {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+}
+
+ul {
+	margin-left: 0.5em;
+}
